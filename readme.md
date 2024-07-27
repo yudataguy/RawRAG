@@ -97,6 +97,7 @@ def simple_retrieval(query_embedding, document_embeddings, k=5):
 - [ ] Add additional advanced memory techniques
 - [ ] Implement more agentic approaches to RAG
 - [ ] More advanced document pro-processing techniques, such as chapter summary etc.
+- [ ] GraphRAG implementation
 - [ ] If you have any suggestions, please open an issue or submit a pull request.
 
 ## Contributing
@@ -115,7 +116,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Acknowledgments
 
-- OpenAI for their work on language models and RAG concepts
+- All the contributors to the RAG research and development
 - The open-source community for providing valuable tools and libraries
 
 ---
