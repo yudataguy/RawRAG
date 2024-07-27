@@ -34,7 +34,7 @@ This repository contains several Jupyter notebooks demonstrating different aspec
 
 ### Prerequisites
 
-- Python 3.7+
+- Python 3.9+
 - Jupyter Notebook or JupyterLab
 
 ### Installation
