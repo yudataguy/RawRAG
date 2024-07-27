@@ -1,0 +1,10 @@
+PyPDF2
+pytesseract
+pillow
+nltk
+openai
+pydantic
+pandas
+numpy
+streamlit
+python-dotenv
