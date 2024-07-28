@@ -4,7 +4,7 @@
 
 Retrieval-Augmented Generation (RAG) is a powerful technique that enhances language models by retrieving relevant information from a knowledge base before generating responses. This repository demonstrates how to implement RAG using simple Python functions and libraries, without relying on complex frameworks like LangChain or LlamaIndex.
 
-The goal of this project is to educate programmers on building a RAG system from the ground up, providing a deeper understanding of the underlying processes and greater control over the implementation.
+The goal of this project is to educate developers on building a RAG system from the ground up, providing a deeper understanding of the underlying processes and greater control over the implementation.
 
 ## Why "Raw" RAG?
 
@@ -22,13 +22,15 @@ While libraries like LangChain and LlamaIndex offer quick setup and implementati
 This repository contains several Jupyter notebooks demonstrating different aspects of building a RAG system:
 
 1. `raw_rag_01_basics.ipynb`: Basic RAG implementation with embedding and retrieval
-2. `raw_rag_02_no_embed.ipynb`: Advanced retrieval techniques without embeddings
-3. `raw_rag_03_clearer_ocr.ipynb`: Document preprocessing and OCR
+2. `raw_rag_02_no_embed.ipynb`: Retrieval techniques, such as BM25, without embeddings
+3. `raw_rag_03_clearer_ocr.ipynb`: Document preprocessing and OCR enhancement
 4. `raw_rag_04_summarize.ipynb`: Text summarization techniques
 5. `raw_rag_05_pydantic_is_all_you_need.ipynb`: Implementing JSON parsing for structured output
 6. `raw_rag_06_metadata.ipynb`: Metadata extraction  
 7. `raw_rag_07_memory.ipynb`: Memory implementation
 8. `raw_rag_08_evaluation.ipynb`: Evaluation metrics for RAG
+
+More to come ...
 
 ## Getting Started
 
@@ -71,7 +73,7 @@ This repository contains several Jupyter notebooks demonstrating different aspec
 Each notebook in the repository is self-contained and includes detailed explanations. To get started, open any notebook and run the cells sequentially. For example:
 
 ```python
-# Example from raw_rag_level_01.ipynb
+# Example from raw_rag.ipynb
 import numpy as np
 from sklearn.metrics.pairwise import cosine_similarity
 
@@ -96,7 +98,7 @@ def simple_retrieval(query_embedding, document_embeddings, k=5):
 
 - [ ] Add additional advanced memory techniques
 - [ ] Implement more agentic approaches to RAG
-- [ ] More advanced document pro-processing techniques, such as chapter summary etc.
+- [ ] More advanced document pro-processing techniques
 - [ ] GraphRAG implementation
 - [ ] If you have any suggestions, please open an issue or submit a pull request.
 

@@ -1,6 +1,6 @@
 # Raw RAG Utility Classes
 
-This library provides a set of utility classes for text processing, keyword extraction, search functionality, schema conversion, and message parsing. Below you'll find detailed explanations and examples for each class.
+This provides a set of utility classes for text processing, keyword extraction, search functionality, schema conversion, and message parsing. Below you'll find detailed explanations and examples for each class.
 
 ## Table of Contents
 
@@ -201,5 +201,3 @@ parsed_args = parser.extract_and_parse_arguments(message, parser="custom")
 print(parsed_args)
 # Output: {'arg1': 'value1', 'arg2': 42, 'custom_field': 'This is a custom parsed field'}
 ```
-
-This README provides an overview of each class, its methods, and example usage. Users can refer to this documentation to understand how to effectively use the Raw RAG utility classes in their projects.
