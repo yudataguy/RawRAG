@@ -21,14 +21,14 @@ While libraries like LangChain and LlamaIndex offer quick setup and implementati
 
 This repository contains several Jupyter notebooks demonstrating different aspects of building a RAG system:
 
-1. `raw_rag_01_basics.ipynb`: Basic RAG implementation with embedding and retrieval
-2. `raw_rag_02_no_embed.ipynb`: Retrieval techniques, such as BM25, without embeddings
-3. `raw_rag_03_clearer_ocr.ipynb`: Document preprocessing and OCR enhancement
-4. `raw_rag_04_summarize.ipynb`: Text summarization techniques
-5. `raw_rag_05_pydantic_is_all_you_need.ipynb`: Implementing JSON parsing for structured output
-6. `raw_rag_06_metadata.ipynb`: Metadata extraction  
-7. `raw_rag_07_memory.ipynb`: Memory implementation
-8. `raw_rag_08_evaluation.ipynb`: Evaluation metrics for RAG
+1. [`raw_rag_01_basics.ipynb`](./raw_rag_01_basics.ipynb): Basic RAG implementation with embedding and retrieval
+2. [`raw_rag_02_no_embed.ipynb`](./raw_rag_02_no_embed.ipynb): Retrieval techniques, such as BM25, without embeddings
+3. [`raw_rag_03_clearer_ocr.ipynb`](./raw_rag_03_clearer_ocr.ipynb): Document preprocessing and OCR enhancement
+4. [`raw_rag_04_summarize.ipynb`](./raw_rag_04_summarize.ipynb): Text summarization techniques
+5. [`raw_rag_05_pydantic_is_all_you_need.ipynb`](./raw_rag_05_pydantic_is_all_you_need.ipynb): Implementing JSON parsing for structured output
+6. [`raw_rag_06_metadata.ipynb`](./raw_rag_06_metadata.ipynb): Metadata extraction  
+7. [`raw_rag_07_memory.ipynb`](./raw_rag_07_memory.ipynb): Memory implementation
+8. [`raw_rag_08_evaluation.ipynb`](./raw_rag_08_evaluation.ipynb): Evaluation metrics for RAG
 
 More to come ...
 
